@@ -10,5 +10,5 @@ class Network:
         return x
 
     def backward(self, lr, dA):
-        for layer in self.backward:
+        for layer in reversed(self.network):
             dA = layer.backward(lr, dA)
