@@ -14,7 +14,7 @@ class Layer:
     def backward(self, lr, dA):
         dZ = self.activation.backward(dA)
         dW = np.outer(dZ, self.input)
-        dB = np.sum(dZ ,axis=0)
+        dB = dZ
         dOut = self.W.T @ dZ
         self.W -= lr * dW
         self.B -= lr * dB

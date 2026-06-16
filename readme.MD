@@ -7,6 +7,8 @@ A minimal neural network implemented in Python using only NumPy. Built from the 
 - `activations.py` - ReLU and Sigmoid classes with forward and backward methods.
 - `layer.py` - class that holds weights, biases, and applies backpropagation.
 - `network.py` - Network class that chains layers and orchestrates training.
+- `loss.py` - categorical_cross_entropy method
+- `main.py` - later
 
 ## Status
 
