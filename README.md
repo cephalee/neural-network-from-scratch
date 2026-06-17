@@ -51,3 +51,10 @@ Input (784) → Dense (128, ReLU) → Dense (64, ReLU) → Output (10, Softmax)
 pip install numpy scikit-learn
 python main.py
 ```
+
+---
+
+## Why
+
+Built to understand what happens inside a neural network at the lowest level, 
+without any ML framework abstraction.
